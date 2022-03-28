@@ -21,6 +21,7 @@
         {% if current_user.fname and current_user.lname %}
             Real Name: {{current_user.fname}}  {{current_user.lname}} <br>
         {% endif %}
+        Role: {{current_user.role}} <br>
         
         Username: {{current_user.username}} <br>
         Email: {{current_user.email}}
